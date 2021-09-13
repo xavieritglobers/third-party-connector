@@ -1,5 +1,5 @@
 {
-  "name": "reportlogic",
+  "name": "third-party-connector",
   "vendor": "itglobers",
   "version": "0.0.1",
   "title": "Third Party Service Connector",
@@ -40,5 +40,21 @@
       }
     }
   ],
+  "settingsSchema": {
+    "title": "Third Party Settings",
+    "type": "object",
+    "properties": {
+      "MercadoPago": {
+        "title": "Mercado Pago",
+        "description": "API KEY",
+        "type": "string"
+      },
+      "SMS": {
+        "title": "Sms KEY",
+        "description": "API KEY",
+        "type": "string"
+      }
+    }
+  },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

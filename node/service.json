@@ -7,11 +7,11 @@
   "routes": {
     "sendSMS": {
       "path": "/sendNotification",
-      "public": true
+      "public": false
     },
     "refundMP": {
       "path": "/refundMP",
-      "public": true
+      "public": false
     }
   }
 }
